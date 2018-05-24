@@ -115,7 +115,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <li>
-                            <a href="./report1.php">
+                            <a href="#">
                                 <i class="fa fa-edit fa-fw"></i> รายงานสรุปการเดินทาง</a>
                         </li>
                         <li>
@@ -128,7 +128,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#">
+                            <a href="./report4.php">
                                 <i class="fa fa-edit fa-fw"></i> รายงานจอดรถไม่ดับเครื่องยนต์</a>
                         </li>
                         <li>
@@ -190,7 +190,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">รายงานจอดรถไม่ดับเครื่องยนต์</h2>
+                <h2 class="page-header">รายงานสรุปการเดินทาง</h2>
             </div>
             <!-- /.col-lg-12 -->
         </div>
@@ -274,7 +274,7 @@
         <div class="col-lg-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                <button type="button" class="btn btn-success">Excel</button>
+                    <button type="button" class="btn btn-success">Excel</button>
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">

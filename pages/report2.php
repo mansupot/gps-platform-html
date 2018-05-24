@@ -115,7 +115,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <li>
-                            <a href="#">
+                            <a href="./report1.php">
                                 <i class="fa fa-edit fa-fw"></i> รายงานสรุปการเดินทาง</a>
                         </li>
                         <li>
@@ -123,12 +123,12 @@
                                 <i class="fa fa-edit fa-fw"></i> รายงานความเร็วเกินพิกัด</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="./report3.php">
                                 <i class="fa fa-edit fa-fw"></i> รายงานการเข้าสถานี</a>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="././report4.php">
+                            <a href="./report4.php">
                                 <i class="fa fa-edit fa-fw"></i> รายงานจอดรถไม่ดับเครื่องยนต์</a>
                         </li>
                         <li>
@@ -137,7 +137,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#">
+                            <a href="./report6.php">
                                 <i class="fa fa-edit fa-fw"></i> รายงานสถานะ</a>
                         </li>
                         <li>
@@ -237,7 +237,7 @@
                             <div class="form-group">
                                 <i class="fa fa-calendar">
                                 </i>
-                                <label>Finish</label>
+                                <label>Date End</label>
                                 <input type="date" class="form-control" placeholder="Select Date">
                             </div>
                         </div>
@@ -251,7 +251,7 @@
                         <div class="col-md-2 in-col-centered">
                             <div class="form-group">
                                 <span class="glyphicon glyphicon-time"></span>
-                                <label>Time Finish</label>
+                                <label>Time End</label>
                                 <input type="time" class="form-control" placeholder="Select Date">
                             </div>
                         </div>
@@ -260,9 +260,9 @@
             </div>
         </div>
         <!-- <div class="col-lg-5"></div> -->
-        <div class="col-md-1  in-col-centered" style="width: 105px;">
+        <div class="col-md-1  in-col-centered" style="width: 150px;">
                                                 <div class="form-group">
-                                                    <label>เวลาที่เกิน :</label>
+                                                    <label>Over Time</label>
                                                     <div class="input-group date">
                                                         <input type="text" class="form-control numeric" id="fieldOverTime" name="overTime" maxlength="4" required="">
                                                         <div class="help-block with-errors"></div>
@@ -286,7 +286,7 @@
         <div class="col-lg-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    DataTables Advanced Tables
+                <button type="button" class="btn btn-success">Excel</button>
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">

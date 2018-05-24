@@ -123,12 +123,12 @@
                                 <i class="fa fa-edit fa-fw"></i> รายงานความเร็วเกินพิกัด</a>
                         </li>
                         <li>
-                            <a href="./report3.php">
+                            <a href="#">
                                 <i class="fa fa-edit fa-fw"></i> รายงานการเข้าสถานี</a>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#">
+                            <a href="./report4.php">
                                 <i class="fa fa-edit fa-fw"></i> รายงานจอดรถไม่ดับเครื่องยนต์</a>
                         </li>
                         <li>
@@ -190,7 +190,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">รายงานจอดรถไม่ดับเครื่องยนต์</h2>
+                <h2 class="page-header">รายงานการเข้าสถานี</h2>
             </div>
             <!-- /.col-lg-12 -->
         </div>
@@ -260,6 +260,18 @@
             </div>
         </div>
         <!-- <div class="col-lg-5"></div> -->
+        <div class="col-md-1  in-col-centered" style="width: 150px;">
+                                                <div class="form-group">
+                                                    <label>Over Time</label>
+                                                    <div class="input-group date">
+                                                        <input type="text" class="form-control numeric" id="fieldOverTime" name="overTime" maxlength="4" required="">
+                                                        <div class="help-block with-errors"></div>
+                                                        <span class="input-group-addon">
+                                                             <span>นาที</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
         <div class="col-lg-12 text-center">
             <div class="form-group">
                 </br>
