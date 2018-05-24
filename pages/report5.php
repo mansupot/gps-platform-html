@@ -119,7 +119,7 @@
                                 <i class="fa fa-edit fa-fw"></i> รายงานสรุปการเดินทาง</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="./report2.php">
                                 <i class="fa fa-edit fa-fw"></i> รายงานความเร็วเกินพิกัด</a>
                         </li>
                         <li>
@@ -128,7 +128,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="./report4.html">
+                            <a href="./report4.php">
                                 <i class="fa fa-edit fa-fw"></i> รายงานจอดรถไม่ดับเครื่องยนต์</a>
                         </li>
                         <li>
