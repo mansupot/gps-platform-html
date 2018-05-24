@@ -20,5 +20,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git"
+  },
+  "dependencies": {
+    "bootstrap-datetime-picker": "^2.4.4"
   }
 }
